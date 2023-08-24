@@ -1,0 +1,27 @@
+.section {
+    height: 100vh;
+}
+
+.section:nth-child(odd) {
+    background: #f9f9f9;
+}
+
+#hscroll {
+    display: flex;
+    align-items: center;
+    background: #fff;
+}
+
+#hscroll .case {
+    display: flex;
+    width: 1400px;
+    margin: 0 auto;
+    height: 700px;
+    background: #ff0;
+    overflow: hidden;
+}
+
+#hscroll .case .page {
+    flex: 0 0 100%;
+    padding: 0 300px;
+}
